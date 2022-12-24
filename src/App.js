@@ -2,23 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  /*
+  function seizure(){
+    document.getElementsByClassName("App").style.backgroundColor = rgb(Math.floor(Math.random() * 256), Math.floor(Math.random() * 256), Math.floor(Math.random() * 256));
+  }
+  useEffect(() => {
+    seizure();
+  }, [])
+  */
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="App"></div>
   );
 }
 
